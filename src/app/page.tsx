@@ -232,7 +232,7 @@ export default function LevelUpPage() {
           - Company name: Change COMPANY.name at the top of this file
           - Links: Edit the NAV_LINKS array at the top
       ======================================== */}
-      <nav className={`fixed w-full z-50 transition-all duration-300 mix-blend-difference ${isScrolled ? 'py-4' : 'py-8'}`}>
+      <nav className={`fixed w-full z-50 transition-all duration-300 mix-blend-difference ${isScrolled ? 'py-3 md:py-4' : 'py-5 md:py-8'}`}>
         <div className="container mx-auto px-6 md:px-12 flex justify-between items-start">
 
           {/* Logo */}
@@ -298,7 +298,7 @@ export default function LevelUpPage() {
           - Button: Change "Start Project" text
       ======================================== */}
       <header
-        className="relative min-h-screen flex flex-col justify-end pb-20 pt-40 border-b border-white/10 bg-cover bg-center"
+        className="relative min-h-screen flex flex-col justify-end pb-12 md:pb-20 pt-28 md:pt-40 border-b border-white/10 bg-cover bg-center"
         style={{ backgroundImage: "url(/img1.jpeg)" }}
       >
         <div className="absolute inset-0 bg-black/60"></div>
@@ -323,7 +323,7 @@ export default function LevelUpPage() {
           </div>
 
           {/* Info Grid (Location, Description, CTA Button) */}
-          <div className="grid md:grid-cols-12 gap-8 mt-20 border-t border-white/10 pt-8">
+          <div className="grid md:grid-cols-12 gap-8 mt-10 md:mt-20 border-t border-white/10 pt-6 md:pt-8">
 
             {/* Location Info */}
             <div className="md:col-span-4 font-mono text-xs text-zinc-500 uppercase leading-relaxed">
@@ -500,30 +500,30 @@ export default function LevelUpPage() {
         </div>
 
         {/* Right Side - Content */}
-        <div className="flex flex-col justify-between p-12 md:p-24 bg-[--color-bg-primary]">
+        <div className="flex flex-col justify-between p-8 md:p-24 bg-[--color-bg-primary]">
           <div>
             <h3 className="text-[--color-accent] font-mono text-xs uppercase tracking-widest mb-8">
               Why We Exist
             </h3>
             {/* Main Statement - EDIT THIS TEXT! */}
-            <p className="text-3xl md:text-5xl font-bold uppercase leading-tight tracking-tight mb-12">
+            <p className="text-3xl md:text-5xl font-bold uppercase leading-tight tracking-tight mb-6 md:mb-12">
               We execute the <span className="text-zinc-600">hard stuff</span> so you don&apos;t have to.
             </p>
           </div>
 
           {/* Features List */}
-          <div className="space-y-8">
+          <div className="space-y-6 md:space-y-8">
             {FEATURES.map((feature, idx) => (
               <div key={idx} className="border-t border-white/10 pt-4">
                 <div className="flex justify-between items-baseline mb-2">
                   <span className="text-lg font-bold uppercase">{feature.title}</span>
                   <span className="font-mono text-[--color-accent]">{feature.number}</span>
                 </div>
-                <div className="mt-4 mb-4 border border-white/10 bg-black/20 overflow-hidden">
+                <div className="mt-3 mb-3 border border-white/10 bg-black/20 overflow-hidden">
                   <img
                     src={feature.image}
                     alt={feature.imageAlt}
-                    className="w-full h-32 object-cover opacity-80"
+                    className="w-full h-28 md:h-32 object-cover opacity-80"
                   />
                 </div>
                 <p className="text-zinc-500 text-sm max-w-sm">{feature.desc}</p>
@@ -547,8 +547,8 @@ export default function LevelUpPage() {
         <div className="container mx-auto px-6 md:px-12">
 
           {/* Big "Let's Talk" CTA */}
-          <div className="flex flex-col md:flex-row justify-between items-end border-b border-white/10 pb-4 mb-4">
-            <a href="/contact" className="group">
+          <div className="flex flex-col md:flex-row justify-between items-center md:items-end border-b border-white/10 pb-4 mb-4 text-center md:text-left">
+            <a href="/contact" className="group w-full md:w-auto">
               <h2 className="text-[15vw] md:text-[10vw] font-bold uppercase leading-none tracking-tighter text-zinc-800 group-hover:text-white transition-colors cursor-pointer select-none">
                 Let&apos;s Talk
               </h2>
