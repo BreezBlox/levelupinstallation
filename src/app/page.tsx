@@ -298,14 +298,14 @@ export default function LevelUpPage() {
           - Button: Change "Start Project" text
       ======================================== */}
       <header
-        className="relative min-h-screen flex flex-col justify-end pb-12 md:pb-20 pt-20 md:pt-40 border-b border-white/10 bg-cover bg-center"
+        className="relative min-h-screen flex flex-col justify-end pb-12 md:pb-20 pt-[70px] md:pt-40 border-b border-white/10 bg-cover bg-center"
         style={{ backgroundImage: "url(/img1.jpeg)" }}
       >
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="container mx-auto px-6 md:px-12 relative z-10">
 
           {/* Status Badge */}
-          <div className="mb-6 md:mb-8 flex items-center gap-4">
+          <div className="mb-[14px] md:mb-8 flex items-center gap-4">
             <div className="w-2 h-2 bg-[--color-accent]"></div>
             <span className="font-mono text-xs text-zinc-500 uppercase tracking-widest">
               Global Operations / Active
