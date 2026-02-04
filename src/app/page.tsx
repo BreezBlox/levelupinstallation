@@ -298,7 +298,7 @@ export default function LevelUpPage() {
           - Button: Change "Start Project" text
       ======================================== */}
       <header
-        className="relative min-h-screen flex flex-col justify-end pb-12 md:pb-20 pt-[55px] md:pt-40 border-b border-white/10 bg-cover bg-center"
+        className="relative min-h-screen flex flex-col justify-start md:justify-end pb-8 md:pb-20 pt-[85px] md:pt-40 border-b border-white/10 bg-cover bg-center"
         style={{ backgroundImage: "url(/img1.jpeg)" }}
       >
         <div className="absolute inset-0 bg-black/60"></div>
