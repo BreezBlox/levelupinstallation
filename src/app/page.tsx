@@ -218,7 +218,7 @@ export default function LevelUpPage() {
         <div className="w-px h-full bg-white/10"></div>
       </div>
       <div
-        className="fixed top-0 left-0 right-0 h-[60vh] md:inset-0 md:h-auto pointer-events-none z-0 opacity-15 bg-center bg-cover"
+        className="fixed top-0 left-0 right-0 h-[50vh] md:inset-0 md:h-auto pointer-events-none z-0 opacity-15 bg-center bg-cover"
         style={{ backgroundImage: "url(/background1.jpeg)" }}
       ></div>
 
@@ -298,7 +298,7 @@ export default function LevelUpPage() {
           - Button: Change "Start Project" text
       ======================================== */}
       <header
-        className="relative min-h-screen flex flex-col justify-start md:justify-end pb-8 md:pb-20 pt-[95px] md:pt-40 border-b border-white/10 bg-cover bg-center"
+        className="relative min-h-screen flex flex-col justify-center md:justify-end pb-12 md:pb-20 pt-24 md:pt-40 border-b border-white/10 bg-cover bg-center"
         style={{ backgroundImage: "url(/img1.jpeg)" }}
       >
         <div className="absolute inset-0 bg-black/60"></div>
