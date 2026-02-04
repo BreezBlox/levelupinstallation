@@ -218,7 +218,7 @@ export default function LevelUpPage() {
         <div className="w-px h-full bg-white/10"></div>
       </div>
       <div
-        className="fixed top-0 left-0 right-0 h-[50vh] md:inset-0 md:h-auto pointer-events-none z-0 opacity-15 bg-center bg-cover"
+        className="fixed top-0 left-0 right-0 h-[25vh] md:inset-0 md:h-auto pointer-events-none z-0 opacity-15 bg-center bg-cover"
         style={{ backgroundImage: "url(/background1.jpeg)" }}
       ></div>
 
