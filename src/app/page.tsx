@@ -285,6 +285,12 @@ export default function LevelUpPage() {
           </div>
         )}
       </nav>
+      {mobileMenuOpen && (
+        <div
+          className="fixed inset-0 z-40 bg-black/70 md:hidden"
+          onClick={() => setMobileMenuOpen(false)}
+        ></div>
+      )}
 
 
       {/* ========================================
@@ -377,10 +383,6 @@ export default function LevelUpPage() {
           ))}
         </div>
       </div>
-      <div
-        className="h-16 md:h-24 border-b border-white/10 bg-center bg-cover"
-        style={{ backgroundImage: "url(/breaks1.jpeg)" }}
-      ></div>
 
 
       {/* ========================================
@@ -459,10 +461,6 @@ export default function LevelUpPage() {
 
         </div>
       </section>
-      <div
-        className="h-16 md:h-24 border-b border-white/10 bg-center bg-cover"
-        style={{ backgroundImage: "url(/breaks1.jpeg)" }}
-      ></div>
 
 
       {/* ========================================
